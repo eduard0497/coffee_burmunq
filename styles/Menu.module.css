@@ -1,0 +1,52 @@
+.menu {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}
+
+.menu_line_break {
+  margin: 20px auto;
+  border: 1px solid var(--green-color);
+  width: 80%;
+}
+
+.menu_section {
+  text-align: center;
+  width: 80%;
+}
+
+.menu_section > h2 {
+  color: var(--green-color);
+  font-size: 50px;
+}
+
+.menu_items_container {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 10px
+}
+
+.menu_item {
+	flex: 50%;
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	color: var(--green-color);
+}
+
+.menu_item_image  {
+	border-radius: 50%;
+}
+.menu_item_image > img {
+	border-radius: 50%;
+}
+
+.menu_item_info {
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
