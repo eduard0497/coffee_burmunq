@@ -6,7 +6,7 @@ export default function Home() {
     <div className={styles.homepage}>
       <div className={styles.homepage_landing}>
         <div className={styles.homepage_landing_leftImage}>
-          <img src="/homepage/landing.jpeg" alt="Picture of the author" />
+          <img src="/homepage/landing.JPEG" alt="Picture of the author" />
         </div>
         <div className={styles.homepage_landing_rightText}>
           <h2>Explore Good Quality Coffee</h2>
@@ -31,18 +31,18 @@ export default function Home() {
       </div>
       <div className={styles.landing_line_break}></div>
       <div className={styles.sublinks}>
-          <div className={styles.sublinks_link}>
-          <img src="/homepage/atmosphere.jpeg" alt="Picture of the author" />
-              <h2>Atmosphere</h2>
-          </div>
-          <div className={styles.sublinks_link}>
-          <img src="/homepage/menu.jpeg" alt="Picture of the author" />
-              <h2>Menu</h2>
-          </div>
-          <div className={styles.sublinks_link}>
+        <div className={styles.sublinks_link}>
+          <img src="/homepage/atmosphere.JPEG" alt="Picture of the author" />
+          <h2>Atmosphere</h2>
+        </div>
+        <div className={styles.sublinks_link}>
+          <img src="/homepage/menu.JPEG" alt="Picture of the author" />
+          <h2>Menu</h2>
+        </div>
+        <div className={styles.sublinks_link}>
           <img src="/homepage/pastry.jpg" alt="Picture of the author" />
-              <h2>Pastry</h2>
-          </div>
+          <h2>Pastry</h2>
+        </div>
       </div>
       <div className={styles.landing_line_break}></div>
     </div>
