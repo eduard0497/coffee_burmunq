@@ -95,11 +95,19 @@ const Footer = () => {
             <p>Address:</p>
             <p>City, State, Zip:</p>
             <p>Phone:</p>
+            <p>Our Partner in Armenia:</p>
           </div>
           <div className={styles.footer_contact_info_right}>
             <p>102 S Glendale Ave 1/2</p>
             <p>Glendale, CA 91205</p>
-            <p>818-888-8888</p>
+            <p>747-333-1952</p>
+            <a
+              target="_blank"
+              href="https://coffeeburmunq.com/"
+              rel="noopener noreferrer"
+            >
+              Coffee Burmunq
+            </a>
           </div>
         </div>
       </div>

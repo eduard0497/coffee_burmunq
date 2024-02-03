@@ -32,7 +32,7 @@ export default function Home() {
       <div className={styles.landing_line_break}></div>
       <div className={styles.sublinks}>
         <div className={styles.sublinks_link}>
-          <img src="/homepage/atmosphere.JPEG" alt="Picture of the author" />
+          <img src="/homepage/coffeeShop.jpg" alt="Picture of the author" />
           <h2>Atmosphere</h2>
         </div>
         <div className={styles.sublinks_link}>
@@ -40,7 +40,7 @@ export default function Home() {
           <h2>Menu</h2>
         </div>
         <div className={styles.sublinks_link}>
-          <img src="/homepage/pastry.jpg" alt="Picture of the author" />
+          <img src="/homepage/croissants.jpeg" alt="Picture of the author" />
           <h2>Pastry</h2>
         </div>
       </div>
