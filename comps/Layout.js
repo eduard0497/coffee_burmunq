@@ -90,26 +90,48 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.footer_contact}>
         <h3>Contact Us</h3>
-        <div className={styles.footer_contact_info}>
-          <div className={styles.footer_contact_info_left}>
-            <p>Address:</p>
-            <p>City, State, Zip:</p>
-            <p>Phone:</p>
-            <p>Our Partner in Armenia:</p>
-          </div>
-          <div className={styles.footer_contact_info_right}>
-            <p>102 S Glendale Ave 1/2</p>
-            <p>Glendale, CA 91205</p>
-            <p>747-333-1952</p>
-            <a
-              target="_blank"
-              href="https://coffeeburmunq.com/"
-              rel="noopener noreferrer"
-            >
-              Coffee Burmunq
-            </a>
-          </div>
-        </div>
+        <table className={styles.footer_contact_info_table}>
+          <tbody>
+            <tr>
+              <td className={styles.footer_contact_info_left}>
+                <p>Address:</p>
+              </td>
+              <td>
+                <p>102 S Glendale Ave 1/2</p>
+              </td>
+            </tr>
+            <tr>
+              <td className={styles.footer_contact_info_left}>
+                <p>City, State, Zip:</p>
+              </td>
+              <td>
+                <p>Glendale, CA 91205</p>
+              </td>
+            </tr>
+            <tr>
+              <td className={styles.footer_contact_info_left}>
+                <p>Phone:</p>
+              </td>
+              <td>
+                <p>747-333-1952</p>
+              </td>
+            </tr>
+            <tr>
+              <td className={styles.footer_contact_info_left}>
+                <p>Our Partner in Armenia:</p>
+              </td>
+              <td>
+                <a
+                  target="_blank"
+                  href="https://coffeeburmunq.com/"
+                  rel="noopener noreferrer"
+                >
+                  Coffee Burmunq
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
       <div className={styles.footer_logo}>
         <h1>COFFEE BURMUNQ</h1>
