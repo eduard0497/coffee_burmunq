@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import styles from "../styles/Layout.module.css";
 import Head from "next/head";
+import Image from "next/image";
 
 function Layout({ children }) {
   return (
@@ -48,8 +49,17 @@ const Navbar = () => {
         }}
       >
         <Link href="/">
-          <h1>COFFEE BURMUNQ</h1>
+          <Image
+            href="/"
+            src="/LOGO.svg"
+            alt="My Logo"
+            width={150}
+            height={150}
+          />
         </Link>
+        {/* <Link href="/">
+          <h1>COFFEE BURMUNQ</h1>
+        </Link> */}
       </div>
       {/*  */}
       <ul className={styles.navbar_links}>
@@ -126,7 +136,7 @@ const Footer = () => {
                   href="https://coffeeburmunq.com/"
                   rel="noopener noreferrer"
                 >
-                  Coffee Burmunq
+                  Coffee Mokate
                 </a>
               </td>
             </tr>
@@ -134,7 +144,7 @@ const Footer = () => {
         </table>
       </div>
       <div className={styles.footer_logo}>
-        <h1>COFFEE BURMUNQ</h1>
+        <h1>Coffee Mokate by Burmunq</h1>
       </div>
     </div>
   );

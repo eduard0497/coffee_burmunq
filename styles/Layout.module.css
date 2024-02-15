@@ -15,6 +15,9 @@
 .navbar_logo {
   font-family: Arial, Helvetica, sans-serif;
   color: var(--light-beige-color);
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .navbar_logo > a {
